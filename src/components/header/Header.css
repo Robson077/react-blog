@@ -1,0 +1,56 @@
+header {
+    height: 10em;
+    background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+
+    margin-bottom: 5em;
+}
+
+header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 9em;
+}
+
+header .title h1, h2{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+header .form {
+    display: flex;
+    justify-content: center;
+}
+
+header input {
+    width: 16em;
+    height: 2em;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #FFFFFF;
+    padding-left: 1em;
+
+}
+
+header input::placeholder {
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 17px;
+    
+    color: #FFFFFF;
+
+    opacity: 0.5;
+
+    padding-left: 0em;
+}

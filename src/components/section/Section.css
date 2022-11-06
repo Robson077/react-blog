@@ -1,0 +1,38 @@
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 4em;
+}
+
+.blog .date-blog {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.1em;
+    color: #717171;
+}
+
+.blog .title-blog {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 22px;
+    margin-bottom: 0.5em;
+    margin-top: 0.8em;
+    color: #1A202C;
+}
+
+.blog .content-blog {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 26px;
+
+
+    color: #717171;
+}
