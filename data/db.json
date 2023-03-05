@@ -1,0 +1,22 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Problema no Pontal do peba.",
+            "coment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies.",
+            "date":"10 de nov, 2022"
+        },
+        {
+            "id": 2,
+            "title": "Lorem ipsum dolor.",
+            "coment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus placerat pretium. Nullam porttitor sagittis.",
+            "date": "02 de jul, 2021"
+        },
+        {
+            "id": 3,
+            "title": "Agora é oficial: o Windows 11 está vindo",
+            "coment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.",
+            "date": "01 de jan, 2023"
+        }
+    ]
+}
