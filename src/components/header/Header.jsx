@@ -2,17 +2,23 @@ import React from 'react'
 
 import "./Header.css"
 
-const Header = () => {
+const Header = ({onClick, onChange}) => {
+
+    const handleSubmit = (e) =>{
+        e.preventDefault()
+    }
+
     return (
         <header>
             <div className="title">
-                <h1>Codelândia</h1>
+                <h1>Robson</h1>
                 <h2>blog</h2>
             </div>
 
-            <div className="form">
-                <input type="text" placeholder='Pesquisar no blog' />
-            </div>
+            <form onSubmit={handleSubmit} className="form">
+                <input type="text" placeholder='Pesquisar no blog' onChange={onChange}/>
+                <button onClick={onClick}>Postar</button>
+            </form>
         </header>
     )
 }
