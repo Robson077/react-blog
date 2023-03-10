@@ -13,7 +13,7 @@ header .title {
     gap: 9em;
 }
 
-header .title h1, h2{
+header .title h1, .linkTitle{
     font-family: 'Lexend Deca';
     font-weight: 400;
     font-size: 18px;
@@ -21,11 +21,14 @@ header .title h1, h2{
     color: #FFFFFF;
     margin-top: 2em;
     margin-bottom: 2em;
+
+    text-decoration: none;
 }
 
 header .form {
     display: flex;
     justify-content: center;
+    column-gap: 2em;
 }
 
 header input {
@@ -53,4 +56,34 @@ header input::placeholder {
     opacity: 0.5;
 
     padding-left: 0em;
+}
+
+header .linkButton {
+
+    text-decoration: none;
+    color: #3EA1DB;
+}
+
+header button {
+    border-radius: 0.5em;
+    border: none;
+    width: 5em;
+
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 22px;
+
+    cursor: pointer;
+}
+
+
+@media (max-width: 767px) {
+    header .form {
+        column-gap: 0.5em;
+    }
+
+    header input {
+        width: 12em;
+    }
 }

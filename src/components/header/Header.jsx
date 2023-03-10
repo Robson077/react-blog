@@ -1,5 +1,9 @@
 import React from 'react'
 
+import { Link } from "react-router-dom"
+
+import {IoMdAdd} from "react-icons/Io"
+
 import "./Header.css"
 
 const Header = ({onClick, onChange}) => {
@@ -12,12 +16,25 @@ const Header = ({onClick, onChange}) => {
         <header>
             <div className="title">
                 <h1>Robson</h1>
-                <h2>blog</h2>
+                <Link to="/" className='linkTitle'>
+                    blog
+                </Link>
             </div>
 
             <form onSubmit={handleSubmit} className="form">
-                <input type="text" placeholder='Pesquisar no blog' onChange={onChange}/>
-                <button onClick={onClick}>Postar</button>
+                <input 
+                    type="text" 
+                    placeholder='Procurar post...' 
+                    onChange={onChange}
+                />
+
+                    
+                
+                <button onClick={onClick}>
+                    <Link to="/post" className="linkButton">
+                        <IoMdAdd/>
+                    </Link>
+                </button>
             </form>
         </header>
     )
