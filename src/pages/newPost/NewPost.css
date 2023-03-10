@@ -1,0 +1,106 @@
+header {
+    height: 10em;
+    background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+
+    margin-bottom: 3em;
+}
+
+header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 9em;
+}
+
+header .title h1, a{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    text-decoration: none;
+}
+
+section .titleForm {
+    text-align: center;
+
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    color: #3EA1DB;
+    margin-top: 1em;
+    margin-bottom: 2em;
+
+}  
+
+section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+section label {
+    text-align: center;
+
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #574AE8;
+    
+    
+}
+
+section input {
+    width: 16em;
+    height: 2em;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;
+
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #000;
+    padding-left: 1em;
+
+}
+
+section input::placeholder {
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 17px;
+
+    opacity: 0.5;
+
+    padding-left: 0em;
+}
+
+section .linkButton {
+
+    text-decoration: none;
+    color: #fff;
+}
+
+section button {
+    border-radius: 0.5em;
+    border: none;
+    width: 6em;
+    height: 2.5em;
+
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 22px;
+
+    background-color: #574AE8;
+
+    cursor: pointer;
+}
